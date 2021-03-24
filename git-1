@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+  <!-- font Dancing Script, title-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <!-- font Quicksand normal, used for internal links-->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+        <!-- adds css stylesheet to the do -->
+        <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
+
+    <title>Anne Cree Yates Shop</title>
+</head>
+
+<div class="container-1">
+  <body>
+    <header id="header">
+      <div class="logo">
+          <img
+            id="header-img"
+              src="https://i.pinimg.com/originals/e3/fc/5e/e3fc5e57417d3b17060de81d900e95cb.jpg"
+                alt="Anne Cree Yates signature on blue logo"
+      />
+    </div>
+      <div>
+        <h1>Handmade, custom and personalised artwork</h1>
+      </div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a><br></li>
+        <li><a class="nav-link" href="#how-it-works">How It Works</a><br></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+       </ul>
+
+    </nav>
+
+
+
+    </header>
+
+    <main>
+
+    </main>
+
+  </body>
+
+  <footer>
+
+  </footer>
+</div>
