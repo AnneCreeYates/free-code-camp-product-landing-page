@@ -2,6 +2,8 @@ div.container-1 {
   width: 75%;
   height: 100%;
   margin: 0 auto;
+  background-color:#302147;
+
 }
 
 
@@ -9,12 +11,15 @@ div.container-1 {
 img {
   width:20%;
   height: 20%;
+  display: inline-flex;
+
 
 }
 
 h1 {
   font-size: 30px;
-
+  color: #ffffff;
+  
 }
 
 .container-1, .container-2, .container-3, .container-4, .container-5, .container-6 {
