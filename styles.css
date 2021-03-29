@@ -1,3 +1,9 @@
+div.container-1 {
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
+}
+
 
 
 img {
@@ -11,7 +17,7 @@ h1 {
 
 }
 
-.container-1, .container-2, .container-3, .container-4 {
+.container-1, .container-2, .container-3, .container-4, .container-5, .container-6 {
   border: solid black 2px;
   margin:3px;
 }
