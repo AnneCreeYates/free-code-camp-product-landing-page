@@ -1,23 +1,26 @@
-div.container-1 {
-  width: 75%;
-  height: 100%;
-  margin: 0 auto;
-  /* opacity: 50%; */
-  background-color:#dacaed;
-
-}
-
+/*                             can be added to table and PC version; makes the page too small for mobile
 div.container-0 {
   width: 100%;
   height: 100%;
   overflow: auto;
   background-color: #302147;
+}*/
+
+div.container-1 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  /* opacity: 50%; */
+  background-color:#2f184a;
 }
 
+
 img {
-  width:20%;
+  width:40%;
   height: 20%;
-  display: inline-flex;
+  /* display: inline-flex; */
+  filter: sepia(55%);
+  border-radius: 30% 800% 900% 50%;
 
 
 }
