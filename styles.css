@@ -53,16 +53,19 @@ h1 {
 
 }
 
-a {
-  font-size: 4.3em;
-  font-family: "Dancing Script", sans-serif;
-  text-decoration: none;
-  /* list-style-type: none; */
-  color: #ffffff;
+#nav-bar {
+  font-size: 4em;
+  font-family: "Quicksand", sans-serif;
   position: relative;
-  bottom: 8em;
-  display: inline-flex;
+  bottom: 8.5em;
 
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+  display: inline-flex;
 }
 
 .container-1, .container-2, .container-3, .container-4, .container-5, .container-6 {
