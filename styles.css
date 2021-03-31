@@ -16,7 +16,7 @@ div.container-1 {
 
 
 div.container-2a {
-  width: 100%;
+  width: 50%;
   height: 25%;
   display: inline-grid;
 }
@@ -25,14 +25,15 @@ div.container-2b {
   width: 50%;
   height: 25%;
   display: inline-grid;
-
-
+  position: relative;
+  bottom: 34em;
+  left: 27.8em;
 
 }
 
 img {
   width:100%;
-  height: 50%;
+  height: 100%;
   display: inline-grid;
   filter: sepia(55%);
   border-radius: 30% 800% 900% 50%;
@@ -40,8 +41,8 @@ img {
 }
 
 div.logo {
-  width: 50%;
-  height: 200%;
+  width: 100%;
+  height: 100%;
   display: inline-grid;
   border: white 1px solid;
 }
