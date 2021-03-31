@@ -14,7 +14,6 @@ div.container-1 {
   background-color:#2f184a;
 }
 
-
 div.container-2a {
   width: 50%;
   height: 25%;
@@ -51,6 +50,18 @@ h1 {
   font-size: 90px;
   color: #ffffff;
   font-family: "Dancing Script", sans-serif;
+
+}
+
+a {
+  font-size: 4.3em;
+  font-family: "Dancing Script", sans-serif;
+  text-decoration: none;
+  /* list-style-type: none; */
+  color: #ffffff;
+  position: relative;
+  bottom: 8em;
+  display: inline-flex;
 
 }
 
