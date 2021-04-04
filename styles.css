@@ -111,7 +111,7 @@ div.container-3 {
   width: 90vw;
   height: 90px;
   display: inline-grid;
-  border-radius: 24px 70px;
+  border-radius: 24px 70px 40%;
   font-size: 55px;
   font-family: "Quicksand", monospace;
   padding: 0 0 0 37px;
@@ -121,6 +121,16 @@ div.container-3 {
   width: 60vw;
   height: 90px;
   display: inline-grid;
+  border-radius: 24px 70px 40%;
+  font-size: 45px;
+  font-family: "Quicksand", monospace;
+  /* padding: 0 0 0 25px; */
+  text-align: center;
+  background:linear-gradient(#4d7deb, #e615ed);
+  color: #ffffff;
+  position: relative;
+  left: 67px;
+  top: 23px;
 }
 
 .container-1, .container-2, .container-3, .container-4, .container-5, .container-6 {
