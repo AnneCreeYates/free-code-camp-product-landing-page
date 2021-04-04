@@ -151,6 +151,15 @@ p {
   font-family: "Quicksand", monospace;
 }
 
+#video {
+  width: 90%;
+  height: auto;
+  display: grid;
+  position: relative;
+  top: -15em;
+  margin: 0 auto;
+}
+
 /* .container-1, .container-2, .container-3, .container-4, .container-5, .container-6 {
   border: solid black 2px;
   margin:3px;
