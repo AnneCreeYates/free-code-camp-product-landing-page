@@ -124,7 +124,7 @@ div.container-3 {
   border-radius: 24px 70px 40%;
   font-size: 45px;
   font-family: "Quicksand", monospace;
-  background:linear-gradient(#4d7deb, #e615ed);
+  background:linear-gradient(12deg, #ed1588, #170b80);
   color: #ffffff;
   position: relative;
   left: 67px;
@@ -138,6 +138,17 @@ div.container-3 {
   color: #ffffff;
   padding: 2em;
   text-align: justify;
+}
+
+h2 {
+  font-size: 100px;
+  font-family: "Dancing Script", "Times New Roman";
+  text-align: center;
+}
+
+p {
+  font-size: 59px;
+  font-family: "Quicksand", monospace;
 }
 
 /* .container-1, .container-2, .container-3, .container-4, .container-5, .container-6 {
