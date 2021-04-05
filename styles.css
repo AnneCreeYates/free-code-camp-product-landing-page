@@ -201,7 +201,18 @@ ol {
   color: #ffffff;
 }
 
+button.btn {
+  width: 60vw;
+  height: 90px;
+  display: inline-grid;
+  border-radius: 24px 70px 40%;
+  font-size: 45px;
+  font-family: "Quicksand", monospace;
+  background:linear-gradient(12deg, #ed1588, #170b80);
+  color: #ffffff;
+  margin: 2em 1.2em;
 
+}
 
  /* .container-1, .container-2, .container-3, .container-4, .container-5, .container-6 {
   border: solid black 2px;
