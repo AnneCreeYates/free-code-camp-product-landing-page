@@ -128,6 +128,7 @@ div.container-3 {
   position: relative;
   left: 67px;
   top: 23px;
+  box-shadow: 20px 13px 25px #645287;
 }
 
 .container-4 {
@@ -174,11 +175,11 @@ div.container-6 {
 
 div.level {
   width: 90%;
-  height: auto;
+  height: 1.7em;
   display: grid;
   margin: auto;
   text-align: center;
-  font-size: 80px;
+  font-size: 75px;
   font-family: "Dancing Script", "Times New Roman";
   color: #ffffff;
 
@@ -204,17 +205,24 @@ ol {
   color: #ffffff;
 }
 
+.art-type {
+  justify-content: center;
+
+}
+
 button.btn {
   width: 60vw;
   height: 90px;
   display: inline-grid;
   border-radius: 24px 70px 40%;
-  font-size: 45px;
+  font-size: 67px;
   font-family: "Quicksand", monospace;
   background:linear-gradient(12deg, #ed1588, #170b80);
   color: #ffffff;
-  margin: 2em 1.2em;
-
+  margin: 1.2em 1.2em 3em;
+  position: relative;
+  left: 1.05em;
+  box-shadow: 20px 13px 25px #382859;
 }
 
 
