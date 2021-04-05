@@ -6,8 +6,6 @@
   background-color: #302147;
 */
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -140,7 +138,7 @@ div.container-3 {
   text-align: justify;
 }
 
-h2 {
+.icon h2 {
   font-size: 100px;
   font-family: "Dancing Script", "Times New Roman";
   text-align: center;
@@ -160,7 +158,52 @@ p {
   margin: 0 auto;
 }
 
-/* .container-1, .container-2, .container-3, .container-4, .container-5, .container-6 {
+div.container-6 {
+  width: 90%;
+  heigth: auto;
+  display: grid;
+  margin: auto;
+  position: relative;
+  bottom: 7em;
+  justify-content: center;
+  background-color: #625194;
+}
+
+div.level {
+  width: 90%;
+  height: auto;
+  display: grid;
+  margin: auto;
+  text-align: center;
+  font-size: 80px;
+  font-family: "Dancing Script", "Times New Roman";
+  color: #ffffff;
+
+}
+
+.container-6 h2 {
+  font-size: 90px;
+  font-style: "Quicksand", monospace;
+  color: #f52c83;
+  text-align: center;
+
+}
+
+ol {
+  width: 90%;
+  height: auto;
+  display: grid;
+  margin: auto 2px;
+  position: relative;
+  left: 3em;
+  font-size: 56px;
+  font-family: "Quicksand", monospace;
+  color: #ffffff;
+}
+
+
+
+ /* .container-1, .container-2, .container-3, .container-4, .container-5, .container-6 {
   border: solid black 2px;
   margin:3px;
 } */
