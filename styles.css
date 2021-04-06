@@ -65,12 +65,14 @@ h1 {
 #nav-bar {
   font-size: 4em;
   font-family: "Quicksand", sans-serif;
+  display: flex;
   position: relative;
   bottom: 7.2em;
   text-align: center;
   width: 100%;
   background-color: #584480;
   border-radius: 12px 0 32px;
+
 }
 
 ul {
@@ -80,12 +82,13 @@ ul {
   height: auto 0;
   justify-content: space-between;
 
+
 }
 
 a.nav-link {
   text-decoration: none;
   color: #ffffff;
-  display: inline-grid;
+  display: inline-flex;
   margin: 0 50px 0 50px;
 
 }
@@ -107,7 +110,7 @@ div.container-3 {
 }
 
 #email {
-  width: 90vw;
+  width: 79vw;
   height: 90px;
   display: inline-grid;
   border-radius: 24px 70px 40%;
@@ -225,7 +228,35 @@ button.btn {
   box-shadow: 20px 13px 25px #382859;
 }
 
+footer {
+  width: 90%;
+  height: 25em;
+  display: inline-flex;
+  text-decoration: none;
+  color: #ffffff;
 
+
+}
+
+footer ul {
+  position: relative;
+  left: 4.2em;
+  bottom: 7em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+footer a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 45px;
+  font-family: "Quicksand", monospace;
+
+
+
+}
  /* .container-1, .container-2, .container-3, .container-4, .container-5, .container-6 {
   border: solid black 2px;
   margin:3px;
