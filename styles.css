@@ -1,4 +1,4 @@
-                            /* can be added to table and PC version; makes the page too small for mobile */
+
 html {
   scroll-behavior: smooth;
 }
@@ -27,7 +27,7 @@ div.container-0 {
   z-index: 1;
   display:grid;
 
-} /*try putting nav-bar it in contraier 0 again*/
+}
 
 div.container-1 {
   width: 100%;
@@ -222,6 +222,11 @@ ol {
 .art-type {
   justify-content: center;
 
+}
+
+ span {
+  font-size: 52px;
+  font-family: "Quicksand", monospace;
 }
 
 button.btn {
