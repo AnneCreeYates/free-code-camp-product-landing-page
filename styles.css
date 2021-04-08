@@ -1,4 +1,8 @@
                             /* can be added to table and PC version; makes the page too small for mobile */
+html {
+  scroll-behavior: smooth;
+}
+
 div.container-0 {
   width: 100%;
   height: 7500px;
@@ -14,8 +18,6 @@ div.container-0 {
 
 
 #nav-bar {
-  position: relative;
-  top: 28em;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -41,7 +43,8 @@ div.container-2a {
   width: 100%;
   height: 25%;
   display: inline-grid;
-  /* background-color: #c8c1f7; */
+  position:relative;
+  top: 10em;
 
 }
 
@@ -58,8 +61,8 @@ img {
   width: 100%;
   height: 100%;
   display: inline-grid;
-  position: relative;
-  top: -10em;
+  /* position: relative;
+  top: 0em; */
 }
 
 div.container-2b {
@@ -67,7 +70,7 @@ div.container-2b {
   height: 25%;
   display: inline-grid;
   position: relative;
-  bottom: 33.8em;
+  bottom: 23em;
   left: 30em;
 
 }
