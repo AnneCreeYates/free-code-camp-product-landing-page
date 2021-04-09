@@ -47,7 +47,7 @@ nav ul {
   width: 100%;
   height: auto 0;
   justify-content: space-between;
-
+  padding: 2.6em 0 0 0;
 
 }
 /*logo and title*/
@@ -308,3 +308,7 @@ footer a.Contact {
 }
 
 /*Media queries for different device screen sizes*/
+
+@media screen {
+
+}
