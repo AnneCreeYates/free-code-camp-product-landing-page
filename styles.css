@@ -168,7 +168,7 @@ div.container-3 {
 }
 
 p {
-  font-size: 45px;
+  font-size: 53px;
   font-family: "Quicksand", monospace;
   margin: 12px 0 2em 0;
 
@@ -311,5 +311,48 @@ footer a.Contact {
 /*Media queries for different device screen sizes*/
 
 @media screen and (min-width: 390px){
+  #nav-bar {
+    height: 9em;
+  }
 
+  a.nav-link {
+    margin: 0 2.5em 0 2.5em;
+    font-size: 3em;
+  }
+
+  div.container-2a {
+    width: 50%;
+    heigth: 100%;
+  }
+
+  div.container-2b {
+    width: 70%;
+    height:auto;
+    position: relative;
+    bottom: 18em;
+    left: 19em;
+  }
+
+  h1 {
+    font-size: 4.6em;
+  }
+
+  div.container-3 {
+    position: relative;
+    bottom: 4em;
+  }
+
+  #email {
+    height: 1.3em;
+    font-size: 3.2em;
+  }
+
+  #submit.btn {
+    width: 90%;
+    height: 67px;
+    font-size: 2.7em;
+    position: relative;
+    left: 67px;
+    top: 23px;
+  }
 }
