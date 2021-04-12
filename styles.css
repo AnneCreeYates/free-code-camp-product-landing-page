@@ -362,6 +362,9 @@ footer a.Contact {
     bottom: 1em;
   }
 
+  p {
+    font-size: 48px;
+  }
   /* place for video - add after attaching the vid */
 
   .container-6 h2 {
