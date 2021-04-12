@@ -329,17 +329,18 @@ footer a.Contact {
     width: 70%;
     height:auto;
     position: relative;
-    bottom: 18em;
+    bottom: 21em;
     left: 19em;
   }
 
   h1 {
-    font-size: 4.6em;
+    font-size: 6em;
+    padding: 0 1em 0 1em;
   }
 
   div.container-3 {
     position: relative;
-    bottom: 4em;
+    bottom: 10em;
   }
 
   #email {
@@ -354,5 +355,10 @@ footer a.Contact {
     position: relative;
     left: 67px;
     top: 23px;
+  }
+
+  .container-4 {
+    position: relative;
+    bottom: 1em;
   }
 }
