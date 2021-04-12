@@ -361,4 +361,26 @@ footer a.Contact {
     position: relative;
     bottom: 1em;
   }
+
+  /* place for video - add after attaching the vid */
+
+  .container-6 h2 {
+    font-size: 75px;
+  }
+
+  span {
+   font-size: 42px;
+
+ }
+
+ button.btn {
+   width: 50%;
+   height: 70px;
+   font-size: 49px;
+   position: relative;
+   left: 3em;
+ }
+
+
+
 }
