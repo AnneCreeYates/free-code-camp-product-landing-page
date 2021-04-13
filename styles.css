@@ -18,6 +18,14 @@ div.container-0 {
   position: absolute;
 }
 
+@media screen and (min-width: 390px){
+
+  div.container-0 {
+    width: 100%;
+    height: 7160px;
+  }
+}
+
 #nav-bar {
   position: -webkit-sticky;
   position: sticky;
@@ -30,6 +38,12 @@ div.container-0 {
 
 }
 
+@media screen and (min-width: 390px){
+  #nav-bar {
+    height: 9em;
+  }
+}
+
 a.nav-link {
   text-decoration: none;
   color: #ffffff;
@@ -38,6 +52,13 @@ a.nav-link {
   font-size: 4em;
   font-family: "Quicksand", sans-serif;
 
+}
+
+@media screen and (min-width: 390px){
+  a.nav-link {
+    margin: 0 2.5em 0 2.5em;
+    font-size: 3em;
+  }
 }
 
 nav ul {
@@ -71,6 +92,13 @@ div.container-2a {
 
 }
 
+@media screen and (min-width: 390px){
+  div.container-2a {
+    width: 50%;
+    heigth: 100%;
+  }
+}
+
 img {
   width:50%;
   height: 100%;
@@ -98,11 +126,28 @@ div.container-2b {
 
 }
 
+@media screen and (min-width: 390px){
+  div.container-2b {
+    width: 70%;
+    height:auto;
+    position: relative;
+    bottom: 21em;
+    left: 19em;
+  }
+}
+
 h1 {
   font-size: 5.6em;
   color: #ffffff;
   font-family: "Dancing Script", sans-serif;
   text-align: center;
+}
+
+@media screen and (min-width: 390px){
+  h1 {
+    font-size: 6em;
+    padding: 0 1em 0 1em;
+  }
 }
 
 /* form - email and button*/
@@ -113,7 +158,14 @@ div.container-3 {
   display: flex;
   position: relative;
   bottom: 15em;
-  /* z-index: 0; */
+
+}
+
+@media screen and (min-width: 390px){
+  div.container-3 {
+    position: relative;
+    bottom: 10em;
+  }
 }
 
 #form {
@@ -133,6 +185,13 @@ div.container-3 {
   padding: 0 0 0 37px;
 }
 
+@media screen and (min-width: 390px){
+  #email {
+    height: 1.3em;
+    font-size: 3.2em;
+  }
+}
+
 #submit.btn {
   width: 90%;
   height: 90px;
@@ -148,6 +207,16 @@ div.container-3 {
   box-shadow: 20px 13px 25px #645287;
 }
 
+@media screen and (min-width: 390px){
+  #submit.btn {
+    width: 90%;
+    height: 67px;
+    font-size: 2.7em;
+    position: relative;
+    left: 67px;
+    top: 23px;
+  }
+}
 
 /* text and it's headers*/
 
@@ -160,6 +229,12 @@ div.container-3 {
   text-align: justify;
 }
 
+@media screen and (min-width: 390px){
+  .container-4 {
+    position: relative;
+    bottom: 1em;
+  }
+}
 
 .icon h2 {
   font-size: 100px;
@@ -174,6 +249,11 @@ p {
 
 }
 
+@media screen and (min-width: 390px){
+  p {
+    font-size: 48px;
+  }
+}
 
 /*container-5; video only*/
 
@@ -222,6 +302,12 @@ div.level {
 
 }
 
+@media screen and (min-width: 390px){
+  .container-6 h2 {
+    font-size: 75px;
+  }
+}
+
 ol {
   width: 90%;
   height: auto;
@@ -244,6 +330,13 @@ ol {
   font-family: "Quicksand", monospace;
 }
 
+@media screen and (min-width: 390px){
+  span {
+   font-size: 42px;
+
+ }
+}
+
 button.btn {
   width: 70%;
   height: 90px;
@@ -259,6 +352,15 @@ button.btn {
   box-shadow: 20px 13px 25px #382859;
 }
 
+@media screen and (min-width: 390px){
+ button.btn {
+   width: 50%;
+   height: 70px;
+   font-size: 49px;
+   position: relative;
+   left: 3em;
+ }
+}
 
 /*footer section*/
 
@@ -289,16 +391,39 @@ footer a{
   line-height: 1.4em;
 }
 
+@media screen and (min-width: 390px){
+ footer a{
+   font-size: 38px;
+   line-height: 1.6em;
+ }
+}
+
 footer a.Terms {
   position: relative;
   left: 2em;
   padding: 14px;
 }
 
+@media screen and (min-width: 390px){
+ footer a.Terms {
+   position: relative;
+   left: 4.5em;
+   padding: 14px;
+ }
+}
+
 footer a.Copyright {
   position: relative;
   left: 8em;
   padding: 14px;
+}
+
+@media screen and (min-width: 390px){
+ footer a.Copyright {
+   position: relative;
+   left: 14em;
+   padding: 14px;
+ }
 }
 
 footer a.Contact {
@@ -308,103 +433,13 @@ footer a.Contact {
   color: #ab05f7;
 }
 
-/*Media queries for different device screen sizes*/
-
 @media screen and (min-width: 390px){
-  #nav-bar {
-    height: 9em;
-  }
-
-  a.nav-link {
-    margin: 0 2.5em 0 2.5em;
-    font-size: 3em;
-  }
-
-  div.container-2a {
-    width: 50%;
-    heigth: 100%;
-  }
-
-  div.container-2b {
-    width: 70%;
-    height:auto;
-    position: relative;
-    bottom: 21em;
-    left: 19em;
-  }
-
-  h1 {
-    font-size: 6em;
-    padding: 0 1em 0 1em;
-  }
-
-  div.container-3 {
-    position: relative;
-    bottom: 10em;
-  }
-
-  #email {
-    height: 1.3em;
-    font-size: 3.2em;
-  }
-
-  #submit.btn {
-    width: 90%;
-    height: 67px;
-    font-size: 2.7em;
-    position: relative;
-    left: 67px;
-    top: 23px;
-  }
-
-  .container-4 {
-    position: relative;
-    bottom: 1em;
-  }
-
-  p {
-    font-size: 48px;
-  }
-  /* place for video - add after attaching the vid */
-
-  .container-6 h2 {
-    font-size: 75px;
-  }
-
-  span {
-   font-size: 42px;
-
- }
-
- button.btn {
-   width: 50%;
-   height: 70px;
-   font-size: 49px;
-   position: relative;
-   left: 3em;
- }
-
- footer a{
-   font-size: 38px;
-   line-height: 1.6em;
- }
-
- footer a.Terms {
-   position: relative;
-   left: 4.5em;
-   padding: 14px;
- }
-
- footer a.Copyright {
-   position: relative;
-   left: 14em;
-   padding: 14px;
- }
-
  footer a.Contact {
    position: relative;
    left: 22.3em;
    padding: 14px;
+  }
 }
+/*Media queries for different device screen sizes*/
 
-}
+/* place for video - add after attaching the vid */
