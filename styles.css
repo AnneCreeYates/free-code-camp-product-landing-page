@@ -309,15 +309,22 @@ div.level {
 }
 
 ol {
-  width: 90%;
+  width: 72%;
   height: auto;
   display: grid;
   margin: auto 2px;
   position: relative;
   left: 3em;
-  font-size: 56px;
+  font-size: 52px;
   font-family: "Quicksand", monospace;
   color: #ffffff;
+}
+
+@media screen and (min-width: 390px) {
+  ol {
+    font-size: 48px;
+    left: 4em;
+  }
 }
 
 .art-type {
@@ -440,6 +447,3 @@ footer a.Contact {
    padding: 14px;
   }
 }
-/*Media queries for different device screen sizes*/
-
-/* place for video - add after attaching the vid */
