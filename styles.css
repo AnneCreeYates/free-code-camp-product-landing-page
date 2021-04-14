@@ -262,10 +262,17 @@ p {
   height: auto;
   display: grid;
   position: relative;
-  top: -15em;
+  top: -9em;
   margin: 0 auto;
 }
 
+
+@media screen and (min-width: 390px) {
+  #video {
+    position: relative;
+    top: -6em;
+  }
+}
 
 /*pricelists*/
 
