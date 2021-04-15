@@ -74,7 +74,18 @@ a.nav-link {
     font-size: 3em;
   }
 }
-/*660px media needs to change the font-size here; messes-up the white4 stripe thing*/
+
+
+@media screen and (min-width: 550px){
+  a.nav-link {
+    font-size: 1.9em;
+    position: relative;
+    top: -0.5em;
+    margin: 0 5em 0 5em;
+  }
+}
+
+/*550px media needs to change the font-size here; messes-up the white4 stripe thing*/
 
 nav ul {
   list-style: none;
@@ -474,7 +485,7 @@ button.btn {
    height: 70px;
    font-size: 49px;
    position: relative;
-   left: 3em;
+   left: 4.5em;
  }
 }
 
@@ -583,8 +594,10 @@ footer a.Contact {
 @media screen and (min-width: 390px){
  footer a.Contact {
    position: relative;
-   left: 22.3em;
+   left: 18.5em;
    padding: 14px;
+   font-size: 3em;
+   font-weight: bold;
   }
 }
 
