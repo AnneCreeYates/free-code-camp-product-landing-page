@@ -26,6 +26,13 @@ div.container-0 {
   }
 }
 
+@media screen and (min-width: 550px){
+  div.container-0 {
+    width: 100%;
+    height: 5300px;
+  }
+}
+
 #nav-bar {
   position: -webkit-sticky;
   position: sticky;
@@ -41,6 +48,13 @@ div.container-0 {
 @media screen and (min-width: 390px){
   #nav-bar {
     height: 9em;
+  }
+}
+
+
+@media screen and (min-width: 550px){
+  #nav-bar {
+    height: 6em;
   }
 }
 
@@ -60,6 +74,7 @@ a.nav-link {
     font-size: 3em;
   }
 }
+/*660px media needs to change the font-size here; messes-up the white4 stripe thing*/
 
 nav ul {
   list-style: none;
@@ -96,6 +111,13 @@ div.container-2a {
   div.container-2a {
     width: 50%;
     heigth: 100%;
+  }
+}
+
+@media screen and (min-width: 550px){
+  div.container-2a {
+    width: 30%;
+    height: 100%
   }
 }
 
@@ -136,6 +158,16 @@ div.container-2b {
   }
 }
 
+@media screen and (min-width: 550px){
+  div.container-2b {
+    width: 85%;
+    height:auto;
+    position: relative;
+    bottom: 12em;
+    left: 10em;
+  }
+}
+
 h1 {
   font-size: 5.6em;
   color: #ffffff;
@@ -147,6 +179,13 @@ h1 {
   h1 {
     font-size: 6em;
     padding: 0 1em 0 1em;
+  }
+}
+
+
+@media screen and (min-width: 550px){
+  h1 {
+    font-size: 4.2em;
   }
 }
 
@@ -165,6 +204,13 @@ div.container-3 {
   div.container-3 {
     position: relative;
     bottom: 10em;
+  }
+}
+
+@media screen and (min-width: 550px){
+  div.container-3 {
+    position: relative;
+    bottom: 4em;
   }
 }
 
@@ -189,6 +235,14 @@ div.container-3 {
   #email {
     height: 1.3em;
     font-size: 3.2em;
+  }
+}
+
+@media screen and (min-width: 550px){
+  #email {
+    height: 1.3em;
+    font-size: 2.3em;
+    width: 120%;
   }
 }
 
@@ -218,6 +272,15 @@ div.container-3 {
   }
 }
 
+@media screen and (min-width: 550px){
+  #submit.btn {
+    width: 90%;
+    height: 50px;
+    font-size: 2em;
+
+  }
+}
+
 /* text and it's headers*/
 
 .container-4 {
@@ -242,6 +305,13 @@ div.container-3 {
   text-align: center;
 }
 
+@media screen and (min-width: 550px){
+  .icon h2 {
+    font-size: 1.3em;
+
+  }
+}
+
 p {
   font-size: 53px;
   font-family: "Quicksand", monospace;
@@ -255,11 +325,17 @@ p {
   }
 }
 
+@media screen and (min-width: 550px){
+  p {
+    font-size: 32px;
+  }
+}
+
 /*container-5; video only*/
 
 #video {
-  width: 90%;
-  height: auto;
+  width: 75%;
+  height: 1000px;
   display: grid;
   position: relative;
   top: -9em;
@@ -301,6 +377,12 @@ div.level {
 
 }
 
+@media screen and (min-width: 550px){
+  div.level {
+    font-size: 59px;
+  }
+}
+
 .container-6 h2 {
   font-size: 90px;
   font-style: "Quicksand", monospace;
@@ -312,6 +394,12 @@ div.level {
 @media screen and (min-width: 390px){
   .container-6 h2 {
     font-size: 75px;
+  }
+}
+
+@media screen and (min-width: 550px){
+  .container-6 h2 {
+    font-size: 55px;
   }
 }
 
@@ -334,6 +422,13 @@ ol {
   }
 }
 
+@media screen and (min-width: 550px){
+  ol {
+    font-size: 32px;
+    left: 4em;
+  }
+}
+
 .art-type {
   justify-content: center;
 
@@ -347,6 +442,13 @@ ol {
 @media screen and (min-width: 390px){
   span {
    font-size: 42px;
+
+ }
+}
+
+@media screen and (min-width: 550px){
+  span {
+   font-size: 35px;
 
  }
 }
@@ -374,6 +476,16 @@ button.btn {
    position: relative;
    left: 3em;
  }
+}
+
+@media screen and (min-width: 550px){
+  button.btn {
+    width: 40%;
+    height: 47px;
+    font-size: 34px;
+    position: relative;
+    left: 6em;
+  }
 }
 
 /*footer section*/
@@ -412,6 +524,13 @@ footer a{
  }
 }
 
+@media screen and (min-width: 550px){
+  footer a{
+    font-size: 31px;
+
+  }
+}
+
 footer a.Terms {
   position: relative;
   left: 2em;
@@ -424,6 +543,13 @@ footer a.Terms {
    left: 4.5em;
    padding: 14px;
  }
+}
+
+@media screen and (min-width: 550px){
+  footer a.Terms {
+    position: relative;
+    left: 5.2em;
+  }
 }
 
 footer a.Copyright {
@@ -440,6 +566,13 @@ footer a.Copyright {
  }
 }
 
+@media screen and (min-width: 550px){
+  footer a.Copyright {
+    position: relative;
+    left: 15em;
+  }
+}
+
 footer a.Contact {
   position: relative;
   left: 15em;
@@ -452,5 +585,14 @@ footer a.Contact {
    position: relative;
    left: 22.3em;
    padding: 14px;
+  }
+}
+
+@media screen and (min-width: 550px){
+  footer a.Contact {
+    position: relative;
+    left: 20.5em;
+    font-weight: bold;
+    font-size: 42px;
   }
 }
