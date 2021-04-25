@@ -85,7 +85,7 @@ a.nav-link {
   }
 }
 
-/*550px media needs to change the font-size here; messes-up the white4 stripe thing*/
+/*try to figure out how to change the positioning and space between the nav-link*/
 
 nav ul {
   list-style: none;
