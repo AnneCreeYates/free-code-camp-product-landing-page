@@ -18,72 +18,72 @@ div.container-0 {
   position: absolute;
 }
 
-@media screen and (min-width: 390px){
+    @media screen and (min-width: 390px){
 
-  div.container-0 {
-    width: 100%;
-    height: 716px;
-  }
-}
+      div.container-0 {
+        width: 100%;
+        height: 7160px;
+      }
+    }
 
-@media screen and (min-width: 550px){
-  div.container-0 {
-    width: 100%;
-    height: 5300px;
-  }
-}
+    @media screen and (min-width: 550px){
+      div.container-0 {
+        width: 100%;
+        height: 5300px;
+      }
+    }
 
 #nav-bar {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   width: 100%;
-  height: 11em;
+  height: 3.5em;
   background-color: #584480;
   z-index: 1;
   display: grid;
 
 }
 
-@media screen and (min-width: 390px){
-  #nav-bar {
-    height: 9em;
-  }
-}
+    @media screen and (min-width: 390px){
+      #nav-bar {
+        height: 9em;
+      }
+    }
 
 
-@media screen and (min-width: 550px){
-  #nav-bar {
-    height: 6em;
-  }
-}
+    @media screen and (min-width: 550px){
+      #nav-bar {
+        height: 6em;
+      }
+    }
 
 a.nav-link {
   text-decoration: none;
   color: #ffffff;
   display: inline-flex;
-  margin: 0 50px 0 50px;
-  font-size: 4em;
+  margin: 0.2em 0.1em; /*fix if there still is a white marin*/
+  font-size: 1.2em;
   font-family: "Quicksand", sans-serif;
 
 }
 
-@media screen and (min-width: 390px){
-  a.nav-link {
-    margin: 0 2.5em 0 2.5em;
-    font-size: 3em;
-  }
-}
+    @media screen and (min-width: 390px){
+      a.nav-link {
+        margin: 0 2.5em 0 2.5em;
+        font-size: 3em;
+      }
+    }
 
 
-@media screen and (min-width: 550px){
-  a.nav-link {
-    font-size: 1.9em;
-    position: relative;
-    top: -0.5em;
-    margin: 0 5em 0 5em;
-  }
-}
+    @media screen and (min-width: 550px){
+      a.nav-link {
+        font-size: 1.9em;
+        position: relative;
+        top: -0.5em;
+        margin: 0 5em 0 5em;
+      }
+    }
 
 /*try to figure out how to change the positioning and space between the nav-link*/
 
@@ -92,8 +92,8 @@ nav ul {
   display: inline-flex;
   width: 100%;
   height: auto 0;
-  justify-content: space-between;
-  padding: 2.6em 0 0 0;
+  justify-content: space-around;
+  padding: 0.9em 0 0 0;
 
 }
 
@@ -110,27 +110,26 @@ div.container-1 {
 
 
 div.container-2a {
-  width: 100%;
-  height: 25%;
+  width: 50%;
+  height: 60%;
   display: inline-grid;
-  position:relative;
-  top: 0.1em;
+  /* position:relative; */
 
 }
 
-@media screen and (min-width: 390px){
-  div.container-2a {
-    width: 50%;
-    heigth: 100%;
-  }
-}
+    @media screen and (min-width: 390px){
+      div.container-2a {
+        width: 50%;
+        heigth: 100%;
+      }
+    }
 
-@media screen and (min-width: 550px){
-  div.container-2a {
-    width: 30%;
-    height: 100%
-  }
-}
+    @media screen and (min-width: 550px){
+      div.container-2a {
+        width: 30%;
+        height: 100%
+      }
+    }
 
 img {
   width:50%;
@@ -154,51 +153,51 @@ div.container-2b {
   height: 25%;
   display: inline-grid;
   position: relative;
-  bottom: 32em;
-  left: 30em;
+  bottom: 6em;
+  left: 7em;
 
 }
 
-@media screen and (min-width: 390px){
-  div.container-2b {
-    width: 70%;
-    height:auto;
-    position: relative;
-    bottom: 21em;
-    left: 19em;
-  }
-}
+    @media screen and (min-width: 390px){
+      div.container-2b {
+        width: 70%;
+        height:auto;
+        position: relative;
+        bottom: 21em;
+        left: 19em;
+      }
+    }
 
-@media screen and (min-width: 550px){
-  div.container-2b {
-    width: 85%;
-    height:auto;
-    position: relative;
-    bottom: 12em;
-    left: 10em;
-  }
-}
+    @media screen and (min-width: 550px){
+      div.container-2b {
+        width: 85%;
+        height:auto;
+        position: relative;
+        bottom: 12em;
+        left: 10em;
+      }
+    }
 
 h1 {
-  font-size: 5.6em;
+  font-size: 1.6em;
   color: #ffffff;
   font-family: "Dancing Script", sans-serif;
   text-align: center;
 }
 
-@media screen and (min-width: 390px){
-  h1 {
-    font-size: 6em;
-    padding: 0 1em 0 1em;
-  }
-}
+    @media screen and (min-width: 390px){
+      h1 {
+        font-size: 6em;
+        padding: 0 1em 0 1em;
+      }
+    }
 
 
-@media screen and (min-width: 550px){
-  h1 {
-    font-size: 4.2em;
-  }
-}
+    @media screen and (min-width: 550px){
+      h1 {
+        font-size: 4.2em;
+      }
+    }
 
 /* form - email and button*/
 
@@ -207,140 +206,140 @@ div.container-3 {
   height: 100%;
   display: flex;
   position: relative;
-  bottom: 15em;
+  bottom: 8em;
 
 }
 
-@media screen and (min-width: 390px){
-  div.container-3 {
-    position: relative;
-    bottom: 10em;
-  }
-}
+    @media screen and (min-width: 390px){
+      div.container-3 {
+        position: relative;
+        bottom: 10em;
+      }
+    }
 
-@media screen and (min-width: 550px){
-  div.container-3 {
-    position: relative;
-    bottom: 4em;
-  }
-}
+    @media screen and (min-width: 550px){
+      div.container-3 {
+        position: relative;
+        bottom: 4em;
+      }
+    }
 
 #form {
   width: 100%;
-  heigth: 2.4em;
+  heigth: 0.2em;
   display: inline-grid;
   justify-content: center;
 }
 
 #email {
-  width: 110%;
-  height: 90px;
+  width: 12em;
+  height: 2em;
   display: inline-grid;
-  border-radius: 24px 70px 40%;
-  font-size: 55px;
+  border-radius: 14% 40%;
+  font-size: 16px;
   font-family: "Quicksand", monospace;
-  padding: 0 0 0 37px;
+  /* padding: 0 0 0 37px; */
 }
 
-@media screen and (min-width: 390px){
-  #email {
-    height: 1.3em;
-    font-size: 3.2em;
-  }
-}
+    @media screen and (min-width: 390px){
+      #email {
+        height: 1.3em;
+        font-size: 3.2em;
+      }
+    }
 
-@media screen and (min-width: 550px){
-  #email {
-    height: 1.3em;
-    font-size: 2.3em;
-    width: 120%;
-  }
-}
+    @media screen and (min-width: 550px){
+      #email {
+        height: 1.3em;
+        font-size: 2.3em;
+        width: 120%;
+      }
+    }
 
 #submit.btn {
   width: 90%;
-  height: 90px;
+  height: 2.5em;
   display: inline-grid;
   border-radius: 24px 70px 40%;
-  font-size: 45px;
+  font-size: 16px;
   font-family: "Quicksand", monospace;
   background:linear-gradient(12deg, #ed1588, #170b80);
   color: #ffffff;
   position: relative;
-  left: 67px;
-  top: 23px;
+  left: 0.3em;
+  top: 2em;
   box-shadow: 20px 13px 25px #645287;
 }
 
-@media screen and (min-width: 390px){
-  #submit.btn {
-    width: 90%;
-    height: 67px;
-    font-size: 2.7em;
-    position: relative;
-    left: 67px;
-    top: 23px;
-  }
-}
+    @media screen and (min-width: 390px){
+      #submit.btn {
+        width: 90%;
+        height: 67px;
+        font-size: 2.7em;
+        position: relative;
+        left: 67px;
+        top: 23px;
+      }
+    }
 
-@media screen and (min-width: 550px){
-  #submit.btn {
-    width: 90%;
-    height: 50px;
-    font-size: 2em;
+    @media screen and (min-width: 550px){
+      #submit.btn {
+        width: 90%;
+        height: 50px;
+        font-size: 2em;
 
-  }
-}
+      }
+    }
 
 /* text and it's headers*/
 
 .container-4 {
   position: relative;
   bottom: 3.5em;
-  font-size: 55px;
+  font-size: 16px;
   color: #ffffff;
   padding: 2em;
   text-align: justify;
 }
 
-@media screen and (min-width: 390px){
-  .container-4 {
-    position: relative;
-    bottom: 1em;
-  }
-}
+    @media screen and (min-width: 390px){
+      .container-4 {
+        position: relative;
+        bottom: 1em;
+      }
+    }
 
 .icon h2 {
-  font-size: 100px;
+  font-size: 32px;
   font-family: "Dancing Script", "Times New Roman";
   text-align: center;
 }
 
-@media screen and (min-width: 550px){
-  .icon h2 {
-    font-size: 1.3em;
+    @media screen and (min-width: 550px){
+      .icon h2 {
+        font-size: 1.3em;
 
-  }
-}
+      }
+    }
 
 p {
-  font-size: 53px;
+  font-size: 20px;
   font-family: "Quicksand", monospace;
   margin: 12px 0 2em 0;
 
 }
 
-@media screen and (min-width: 390px){
-  p {
-    font-size: 48px;
-  }
-}
+    @media screen and (min-width: 390px){
+      p {
+        font-size: 48px;
+      }
+    }
 
-@media screen and (min-width: 550px){
-  p {
-    font-size: 32px;
-  }
-}
+    @media screen and (min-width: 550px){
+      p {
+        font-size: 32px;
+      }
+    }
 
 /*container-5; video only*/
 
@@ -354,12 +353,12 @@ p {
 }
 
 
-@media screen and (min-width: 390px) {
-  #video {
-    position: relative;
-    top: -6em;
-  }
-}
+    @media screen and (min-width: 390px) {
+      #video {
+        position: relative;
+        top: -6em;
+      }
+    }
 
 /*pricelists*/
 
@@ -388,11 +387,11 @@ div.level {
 
 }
 
-@media screen and (min-width: 550px){
-  div.level {
-    font-size: 59px;
-  }
-}
+    @media screen and (min-width: 550px){
+      div.level {
+        font-size: 59px;
+      }
+    }
 
 .container-6 h2 {
   font-size: 90px;
@@ -402,17 +401,17 @@ div.level {
 
 }
 
-@media screen and (min-width: 390px){
-  .container-6 h2 {
-    font-size: 75px;
-  }
-}
+    @media screen and (min-width: 390px){
+      .container-6 h2 {
+        font-size: 75px;
+      }
+    }
 
-@media screen and (min-width: 550px){
-  .container-6 h2 {
-    font-size: 55px;
-  }
-}
+    @media screen and (min-width: 550px){
+      .container-6 h2 {
+        font-size: 55px;
+      }
+    }
 
 ol {
   width: 72%;
@@ -426,19 +425,19 @@ ol {
   color: #ffffff;
 }
 
-@media screen and (min-width: 390px) {
-  ol {
-    font-size: 48px;
-    left: 4em;
-  }
-}
+    @media screen and (min-width: 390px) {
+      ol {
+        font-size: 48px;
+        left: 4em;
+      }
+    }
 
-@media screen and (min-width: 550px){
-  ol {
-    font-size: 32px;
-    left: 4em;
-  }
-}
+    @media screen and (min-width: 550px){
+      ol {
+        font-size: 32px;
+        left: 4em;
+      }
+    }
 
 .art-type {
   justify-content: center;
@@ -450,19 +449,19 @@ ol {
   font-family: "Quicksand", monospace;
 }
 
-@media screen and (min-width: 390px){
-  span {
-   font-size: 42px;
+    @media screen and (min-width: 390px){
+      span {
+       font-size: 42px;
 
- }
-}
+     }
+    }
 
-@media screen and (min-width: 550px){
-  span {
-   font-size: 35px;
+    @media screen and (min-width: 550px){
+      span {
+       font-size: 35px;
 
- }
-}
+     }
+    }
 
 button.btn {
   width: 70%;
@@ -479,25 +478,25 @@ button.btn {
   box-shadow: 20px 13px 25px #382859;
 }
 
-@media screen and (min-width: 390px){
- button.btn {
-   width: 50%;
-   height: 70px;
-   font-size: 49px;
-   position: relative;
-   left: 4.5em;
- }
-}
+    @media screen and (min-width: 390px){
+     button.btn {
+       width: 50%;
+       height: 70px;
+       font-size: 49px;
+       position: relative;
+       left: 4.5em;
+     }
+    }
 
-@media screen and (min-width: 550px){
-  button.btn {
-    width: 40%;
-    height: 47px;
-    font-size: 34px;
-    position: relative;
-    left: 6em;
-  }
-}
+    @media screen and (min-width: 550px){
+      button.btn {
+        width: 40%;
+        height: 47px;
+        font-size: 34px;
+        position: relative;
+        left: 6em;
+      }
+    }
 
 /*footer section*/
 
@@ -528,19 +527,19 @@ footer a{
   line-height: 1.4em;
 }
 
-@media screen and (min-width: 390px){
- footer a{
-   font-size: 38px;
-   line-height: 1.6em;
- }
-}
+    @media screen and (min-width: 390px){
+     footer a{
+       font-size: 38px;
+       line-height: 1.6em;
+     }
+    }
 
-@media screen and (min-width: 550px){
-  footer a{
-    font-size: 31px;
+    @media screen and (min-width: 550px){
+      footer a{
+        font-size: 31px;
 
-  }
-}
+      }
+    }
 
 footer a.Terms {
   position: relative;
@@ -548,20 +547,20 @@ footer a.Terms {
   padding: 14px;
 }
 
-@media screen and (min-width: 390px){
- footer a.Terms {
-   position: relative;
-   left: 4.5em;
-   padding: 14px;
- }
-}
+    @media screen and (min-width: 390px){
+     footer a.Terms {
+       position: relative;
+       left: 4.5em;
+       padding: 14px;
+     }
+    }
 
-@media screen and (min-width: 550px){
-  footer a.Terms {
-    position: relative;
-    left: 5.2em;
-  }
-}
+    @media screen and (min-width: 550px){
+      footer a.Terms {
+        position: relative;
+        left: 5.2em;
+      }
+    }
 
 footer a.Copyright {
   position: relative;
@@ -569,20 +568,20 @@ footer a.Copyright {
   padding: 14px;
 }
 
-@media screen and (min-width: 390px){
- footer a.Copyright {
-   position: relative;
-   left: 14em;
-   padding: 14px;
- }
-}
+    @media screen and (min-width: 390px){
+     footer a.Copyright {
+       position: relative;
+       left: 14em;
+       padding: 14px;
+     }
+    }
 
-@media screen and (min-width: 550px){
-  footer a.Copyright {
-    position: relative;
-    left: 15em;
-  }
-}
+    @media screen and (min-width: 550px){
+      footer a.Copyright {
+        position: relative;
+        left: 15em;
+      }
+    }
 
 footer a.Contact {
   position: relative;
@@ -591,21 +590,21 @@ footer a.Contact {
   color: #ab05f7;
 }
 
-@media screen and (min-width: 390px){
- footer a.Contact {
-   position: relative;
-   left: 18.5em;
-   padding: 14px;
-   font-size: 3em;
-   font-weight: bold;
-  }
-}
+    @media screen and (min-width: 390px){
+     footer a.Contact {
+       position: relative;
+       left: 18.5em;
+       padding: 14px;
+       font-size: 3em;
+       font-weight: bold;
+      }
+    }
 
-@media screen and (min-width: 550px){
-  footer a.Contact {
-    position: relative;
-    left: 20.5em;
-    font-weight: bold;
-    font-size: 42px;
-  }
-}
+    @media screen and (min-width: 550px){
+      footer a.Contact {
+        position: relative;
+        left: 20.5em;
+        font-weight: bold;
+        font-size: 42px;
+      }
+    }
