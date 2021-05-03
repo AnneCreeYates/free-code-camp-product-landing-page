@@ -62,7 +62,7 @@ a.nav-link {
   text-decoration: none;
   color: #ffffff;
   display: inline-flex;
-  margin: 0.5em; /*fix if there still is a white marin*/
+  margin: 0.5em;
   font-size: 0.9em;
   font-family: "Quicksand", sans-serif;
 
@@ -140,20 +140,18 @@ img {
 }
 
 #header {
-  width: 100%;
+  width: 90%;
   height: auto;
-  display: inline-grid;
-  /* position: relative;
-  top: 0em; */
+  display: grid;
 }
 
 div.container-2b {
-  width: 50%;
+  width: 73%;
   height: 25%;
   display: inline-grid;
   position: relative;
-  bottom: 4em;
-  left: 5em;
+  bottom: 3.6em;
+  left: 3.5em;
 
 }
 
@@ -178,7 +176,7 @@ div.container-2b {
     }
 
 h1 {
-  font-size: 1.6em;
+  font-size: 1.2em;
   color: #ffffff;
   font-family: "Dancing Script", sans-serif;
   text-align: center;
@@ -205,7 +203,7 @@ div.container-3 {
   height: 100%;
   display: flex;
   position: relative;
-  bottom: 8em;
+  bottom: 3.7em;
 
 }
 
@@ -230,7 +228,7 @@ div.container-3 {
 }
 
 #email {
-  width: 57vw;
+  width: 78vw;
   height: 1.6em;
   display: inline-grid;
   border-radius: 24px 70px 40%;
@@ -238,6 +236,7 @@ div.container-3 {
   font-family: "Quicksand", monospace;
   position: relative;
   top: 13vw;
+  left: 5vw;
   padding: 0 0 0 0.8em;
 }
 
@@ -257,16 +256,16 @@ div.container-3 {
     }
 
 #submit.btn {
-  width: 57vw;
-  height: 1.9em;
+  width: 75vw;
+  height: 14vw;
   display: inline-grid;
   border-radius: 24px 70px 40%;
-  font-size: 16px;
+  font-size: 0.7em;
   font-family: "Quicksand", monospace;
   background:linear-gradient(12deg, #ed1588, #170b80);
   color: #ffffff;
   position: relative;
-  left: 0.3em;
+  left: 1.5em;
   top: 2em;
   box-shadow: 18px 8px 15px #645287;
 }
@@ -295,12 +294,13 @@ div.container-3 {
 
 .container-4 {
   width: 100%;
+  height: auto;
   position: relative;
-  bottom: 3.5em;
+  bottom: 0.4em;
   font-size: 14px;
   color: #ffffff;
   padding: 1em;
-  text-align: justify;
+  margin: 0 auto;
 }
 
     @media screen and (min-width: 390px){
@@ -311,7 +311,7 @@ div.container-3 {
     }
 
 .icon h2 {
-  font-size: 25px;
+  font-size: 1.6em;
   font-family: "Dancing Script", "Times New Roman";
   text-align: center;
 }
@@ -324,10 +324,9 @@ div.container-3 {
     }
 
 p {
-  font-size: 16px;
+  font-size: 1.2em;
   font-family: "Quicksand", monospace;
-  margin: 12px 0 2em 0;
-
+  margin: 0 0.8em;
 }
 
     @media screen and (min-width: 390px){
@@ -344,13 +343,15 @@ p {
 
 /*container-5; video only*/
 
+
 #video {
   width: 80%;
   height: auto;
-  display: grid;
+  display: flex;
   position: relative;
-  top: -9em;
+  top: 0.5em;
   margin: 0 auto;
+  justify-content: center;
 }
 
 
@@ -369,7 +370,7 @@ div.container-6 {
   display: inline-flex;
   margin: 0 auto;
   position: relative;
-  bottom: 7em;
+  top: 4em;
   justify-content: center;
   background-color: #4d3c6e;
   border-radius: 12px 90%;
@@ -378,7 +379,7 @@ div.container-6 {
 
 div.level {
   width: 90%;
-  height: 1.7em;
+  height: 1.3em;
   display: grid;
   margin: auto;
   text-align: center;
@@ -504,7 +505,7 @@ button.btn {
 footer {
   width: 90%;
   height: auto;
-  display: inline-grid;
+  display: flex;
   text-decoration: none;
   color: #ffffff;
 
@@ -513,7 +514,7 @@ footer {
 footer ul {
   position: relative;
   left: 2em;
-  bottom: 6.7em;
+  top: 2.6em;
   display: flex;
   flex-direction: column;
   list-style: none;
