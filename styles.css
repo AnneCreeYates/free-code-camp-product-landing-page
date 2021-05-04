@@ -19,7 +19,7 @@ div.container-0 {
   position: absolute;
 }
 
-    @media screen and (min-width: 390px){
+    /* @media screen and (min-width: 390px){
 
       div.container-0 {
         width: 100%;
@@ -32,7 +32,7 @@ div.container-0 {
         width: 100%;
         height: 5300px;
       }
-    }
+    } */
 
 #nav-bar {
   position: -webkit-sticky;
@@ -46,9 +46,9 @@ div.container-0 {
 
 }
 
-    @media screen and (min-width: 390px){
+    @media screen and (min-width: 316px){
       #nav-bar {
-        height: 9em;
+        height: 2em;
       }
     }
 
@@ -156,13 +156,13 @@ div.container-2b {
 
 }
 
-    @media screen and (min-width: 390px){
+    @media screen and (min-width: 316px){
       div.container-2b {
-        width: 70%;
+        width: 75%;
         height:auto;
         position: relative;
-        bottom: 21em;
-        left: 19em;
+        bottom: 4em;
+        left: 4.5em;
       }
     }
 
@@ -171,7 +171,7 @@ div.container-2b {
         width: 85%;
         height:auto;
         position: relative;
-        bottom: 12em;
+        bottom: 11em;
         left: 10em;
       }
     }
@@ -193,9 +193,9 @@ h1 {
       }
     }
 
-    @media screen and (min-width: 390px){
+    @media screen and (min-width: 316px){
       h1 {
-        font-size: 6em;
+        font-size: 1.4em;
         padding: 0 1em 0 1em;
       }
     }
@@ -251,10 +251,10 @@ div.container-3 {
   padding: 0 0 0 0.8em;
 }
 
-    @media screen and (min-width: 390px){
+    @media screen and (min-width: 316px){
       #email {
-        height: 1.3em;
-        font-size: 3.2em;
+        height: 1.2em;
+        font-size: 1.1em;
       }
     }
 
@@ -292,14 +292,14 @@ div.container-3 {
       }
     }
 
-    @media screen and (min-width: 390px){
+    @media screen and (min-width: 316px){
       #submit.btn {
         width: 90%;
-        height: 67px;
-        font-size: 2.7em;
+        height: 1.6em;
+        font-size: 1.04em;
         position: relative;
-        left: 67px;
-        top: 23px;
+        left: 2em;
+        top: 3em;
       }
     }
 
@@ -521,13 +521,13 @@ button.btn {
      }
     }
 
-    @media screen and (min-width: 390px){
+    @media screen and (min-width: 316px){
      button.btn {
        width: 50%;
-       height: 70px;
-       font-size: 49px;
+       height: 1.5em;
+       font-size: 1.2em;
        position: relative;
-       left: 4.5em;
+       left: 3.9em;
      }
     }
 
@@ -570,10 +570,12 @@ footer a{
   line-height: 1.5em;
 }
 
-    @media screen and (min-width: 390px){
+    @media screen and (min-width: 316px){
      footer a{
-       font-size: 38px;
+       font-size: 0.8em;
        line-height: 1.6em;
+       position: relative;
+       top: 2em;
      }
     }
 
@@ -590,13 +592,13 @@ footer a.Terms {
   /* padding: 14px; */
 }
 
-    @media screen and (min-width: 390px){
+    /* @media screen and (min-width: 390px){
      footer a.Terms {
        position: relative;
        left: 4.5em;
        padding: 14px;
      }
-    }
+    } */
 
     @media screen and (min-width: 550px){
       footer a.Terms {
@@ -611,13 +613,13 @@ footer a.Copyright {
   /* padding: 14px; */
 }
 
-    @media screen and (min-width: 390px){
+    /* @media screen and (min-width: 390px){
      footer a.Copyright {
        position: relative;
        left: 14em;
        padding: 14px;
      }
-    }
+    } */
 
     @media screen and (min-width: 550px){
       footer a.Copyright {
@@ -642,12 +644,11 @@ footer a.Contact {
       }
     }
 
-    @media screen and (min-width: 390px){
+    @media screen and (min-width: 316px){
      footer a.Contact {
        position: relative;
-       left: 18.5em;
-       padding: 14px;
-       font-size: 3em;
+       top: 2em;
+       font-size: 1em;
        font-weight: bold;
       }
     }
