@@ -15,7 +15,7 @@ html {
 div.container-0 {
   width: 100%;
   height: auto;
-  display: table;
+  display: grid;
   position: absolute;
 }
 
@@ -193,6 +193,15 @@ h1 {
       }
     }
 
+    @media screen and (min-width: 294px){
+      h1 {
+        font-size: 1.4em;
+        position: relative;
+        left: 1em;
+        bottom: 1em;
+      }
+    }
+
     @media screen and (min-width: 316px){
       h1 {
         font-size: 1.4em;
@@ -281,6 +290,13 @@ div.container-3 {
   box-shadow: 18px 8px 15px #645287;
 }
 
+    @media screen and (min-width: 221px){
+      #submit.btn {
+        height: 1.8em;
+        font-size: 0.8em;
+        }
+    }
+
     @media screen and (min-width: 252px){
       #submit.btn {
         width: 95%;
@@ -325,10 +341,10 @@ div.container-3 {
   margin: 0 auto;
 }
 
-    @media screen and (min-width: 390px){
+    @media screen and (min-width: 294px){
       .container-4 {
         position: relative;
-        bottom: 1em;
+        bottom: 3em;
       }
     }
 
@@ -521,6 +537,17 @@ button.btn {
      }
     }
 
+    @media screen and (min-width: 294px){
+     button.btn {
+       width: 60%;
+       height: 1.4em;
+       font-size: 1.1em;
+       position: relative;
+       left: 3.3em;
+
+     }
+    }
+
     @media screen and (min-width: 316px){
      button.btn {
        width: 50%;
@@ -545,7 +572,7 @@ button.btn {
 
 footer {
   width: 90%;
-  height: 11em;
+  height: 13em;
   display: table;
   text-decoration: none;
   color: #ffffff;
@@ -555,7 +582,7 @@ footer {
 footer ul {
   position: relative;
   left: 2em;
-  top: 2.6em;
+  top: 5em;
   display: inline-grid;
   flex-direction: column;
   list-style: none;
