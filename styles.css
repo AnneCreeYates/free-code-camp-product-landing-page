@@ -189,6 +189,7 @@ h1 {
         padding: 0 0.3em 0 0.3em;
         position: relative;
         left: 0.5em;
+        bottom: 0.6em;
       }
     }
 
@@ -336,6 +337,14 @@ div.container-3 {
   font-family: "Dancing Script", "Times New Roman";
   text-align: center;
 }
+
+    @media screen and (min-width: 252px){
+      .icon h2 {
+        font-size: 2em;
+        margin-top: 1em;
+
+      }
+    }
 
     @media screen and (min-width: 550px){
       .icon h2 {
@@ -501,6 +510,17 @@ button.btn {
   box-shadow: 20px 13px 25px #382859;
 }
 
+    @media screen and (min-width: 252px){
+     button.btn {
+       width: 70%;
+       height: 1.6em;
+       font-size: 1.3em;
+       position: relative;
+       left: 1.9em;
+
+     }
+    }
+
     @media screen and (min-width: 390px){
      button.btn {
        width: 50%;
@@ -536,7 +556,7 @@ footer ul {
   position: relative;
   left: 2em;
   top: 2.6em;
-  display: grid;
+  display: inline-grid;
   flex-direction: column;
   list-style: none;
 
@@ -614,6 +634,13 @@ footer a.Contact {
   position: relative;
   top: 1.2em
 }
+
+    @media screen and (min-width: 252px){
+     footer a.Contact {
+       font-size: 1.1em;
+       font-weight: bold;
+      }
+    }
 
     @media screen and (min-width: 390px){
      footer a.Contact {
