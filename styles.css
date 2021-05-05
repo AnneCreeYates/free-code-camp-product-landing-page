@@ -206,6 +206,7 @@ h1 {
       h1 {
         font-size: 1.4em;
         padding: 0 1em 0 1em;
+
       }
     }
 
@@ -341,6 +342,13 @@ div.container-3 {
   margin: 0 auto;
 }
 
+    @media screen and (min-width: 252px){
+      .container-4 {
+        position: relative;
+        bottom: 3em;
+      }
+    }
+
     @media screen and (min-width: 294px){
       .container-4 {
         position: relative;
@@ -401,6 +409,13 @@ p {
 }
 
 
+    @media screen and (min-width: 252px) {
+      #video {
+        width: 90%;
+        height: 15em;
+      }
+    }
+
     @media screen and (min-width: 390px) {
       #video {
         position: relative;
@@ -448,6 +463,12 @@ div.level {
   text-align: center;
 
 }
+
+    @media screen and (min-width: 252px){
+      .container-6 h2 {
+        font-size: 1.7em;
+      }
+    }
 
     @media screen and (min-width: 390px){
       .container-6 h2 {
@@ -497,6 +518,13 @@ ol {
   font-family: "Quicksand", monospace;
 }
 
+    @media screen and (min-width: 252px){
+      span {
+       font-size: 0.5em;
+
+     }
+    }
+
     @media screen and (min-width: 390px){
       span {
        font-size: 42px;
@@ -529,7 +557,7 @@ button.btn {
     @media screen and (min-width: 252px){
      button.btn {
        width: 70%;
-       height: 1.6em;
+       height: 1.35em;
        font-size: 1.3em;
        position: relative;
        left: 1.9em;
