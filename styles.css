@@ -211,9 +211,9 @@ h1 {
     }
 
 
-    @media screen and (min-width: 550px){
+    @media screen and (min-width: 367px){
       h1 {
-        font-size: 4.2em;
+        font-size: 1.em;
       }
     }
 
@@ -309,23 +309,25 @@ div.container-3 {
       }
     }
 
-    @media screen and (min-width: 316px){
+    @media screen and (min-width: 313px){
       #submit.btn {
         width: 90%;
         height: 1.6em;
         font-size: 1.04em;
         position: relative;
         left: 2em;
-        top: 3em;
+        top: 2.6em;
       }
     }
 
-    @media screen and (min-width: 550px){
+    @media screen and (min-width: 366px){
       #submit.btn {
-        width: 90%;
-        height: 50px;
-        font-size: 2em;
-
+        width: 60%;
+        height: 1.7em;
+        font-size: 0.9em;
+        position: relative;
+        top: 3.5em;
+        left: 5.4em;
       }
     }
 
@@ -353,6 +355,20 @@ div.container-3 {
       .container-4 {
         position: relative;
         bottom: 3em;
+      }
+    }
+
+    @media screen and (min-width: 313px){
+      .container-4 {
+        position: relative;
+        bottom: 1.2em;
+      }
+    }
+
+    @media screen and (min-width: 366px){
+      .container-4 {
+        position: relative;
+        top: 0.4em;
       }
     }
 
@@ -586,13 +602,13 @@ button.btn {
      }
     }
 
-    @media screen and (min-width: 550px){
+    @media screen and (min-width: 366px){
       button.btn {
-        width: 40%;
-        height: 47px;
-        font-size: 34px;
+        width: 35%;
+        height: 1.6em;
+        font-size: 1em;
         position: relative;
-        left: 6em;
+        left: 6.5em;
       }
     }
 
